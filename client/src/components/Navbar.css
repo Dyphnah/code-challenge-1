@@ -1,0 +1,19 @@
+/* Navbar.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem; /* Adjust the space between links */
+  margin-left: auto; /* Align links to the right */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Adjust the color as needed */
+}
